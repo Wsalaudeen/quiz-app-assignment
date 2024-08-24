@@ -450,15 +450,6 @@ const questions = [
       { text: "212°F", correct: false },
     ],
   },
-  {
-    question: "Who discovered penicillin?",
-    answers: [
-      { text: "Marie Curie", correct: false },
-      { text: "Alexander Fleming", correct: true },
-      { text: "Louis Pasteur", correct: false },
-      { text: "Albert Einstein", correct: false },
-    ],
-  },
 ];
 
 const questionElement = document.getElementById("question");
