@@ -261,6 +261,204 @@ const questions = [
       { text: "Ethiopia", correct: false },
     ],
   },
+  {
+    question: "What is the smallest country in the world?",
+    answers: [
+      { text: "Monaco", correct: false },
+      { text: "Vatican City", correct: true },
+      { text: "San Marino", correct: false },
+      { text: "Liechtenstein", correct: false },
+    ],
+  },
+  {
+    question: "Which year did World War II end?",
+    answers: [
+      { text: "1945", correct: true },
+      { text: "1940", correct: false },
+      { text: "1939", correct: false },
+      { text: "1950", correct: false },
+    ],
+  },
+  {
+    question: "What is the hardest natural substance on Earth?",
+    answers: [
+      { text: "Gold", correct: false },
+      { text: "Diamond", correct: true },
+      { text: "Iron", correct: false },
+      { text: "Platinum", correct: false },
+    ],
+  },
+  {
+    question: "Which planet is closest to the Sun?",
+    answers: [
+      { text: "Venus", correct: false },
+      { text: "Mars", correct: false },
+      { text: "Mercury", correct: true },
+      { text: "Earth", correct: false },
+    ],
+  },
+  {
+    question: "How many continents are there on Earth?",
+    answers: [
+      { text: "5", correct: false },
+      { text: "6", correct: false },
+      { text: "7", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    question: "What is the longest river in the world?",
+    answers: [
+      { text: "Amazon River", correct: true },
+      { text: "Nile River", correct: false },
+      { text: "Yangtze River", correct: false },
+      { text: "Mississippi River", correct: false },
+    ],
+  },
+  {
+    question: "Which gas is most abundant in the Earth's atmosphere?",
+    answers: [
+      { text: "Oxygen", correct: false },
+      { text: "Nitrogen", correct: true },
+      { text: "Carbon Dioxide", correct: false },
+      { text: "Hydrogen", correct: false },
+    ],
+  },
+  {
+    question: "Who painted the Mona Lisa?",
+    answers: [
+      { text: "Vincent Van Gogh", correct: false },
+      { text: "Pablo Picasso", correct: false },
+      { text: "Leonardo da Vinci", correct: true },
+      { text: "Claude Monet", correct: false },
+    ],
+  },
+  {
+    question: "What is the square root of 64?",
+    answers: [
+      { text: "6", correct: false },
+      { text: "8", correct: true },
+      { text: "10", correct: false },
+      { text: "12", correct: false },
+    ],
+  },
+  {
+    question: "What is the boiling point of water in Celsius?",
+    answers: [
+      { text: "90°C", correct: false },
+      { text: "100°C", correct: true },
+      { text: "110°C", correct: false },
+      { text: "80°C", correct: false },
+    ],
+  },
+  {
+    question: "Which planet is known for its rings?",
+    answers: [
+      { text: "Earth", correct: false },
+      { text: "Mars", correct: false },
+      { text: "Jupiter", correct: false },
+      { text: "Saturn", correct: true },
+    ],
+  },
+  {
+    question: "What is the capital of Japan?",
+    answers: [
+      { text: "Beijing", correct: false },
+      { text: "Seoul", correct: false },
+      { text: "Tokyo", correct: true },
+      { text: "Bangkok", correct: false },
+    ],
+  },
+  {
+    question: "Which language is most spoken worldwide?",
+    answers: [
+      { text: "Spanish", correct: false },
+      { text: "English", correct: false },
+      { text: "Mandarin Chinese", correct: true },
+      { text: "Hindi", correct: false },
+    ],
+  },
+  {
+    question: "What is the main ingredient in guacamole?",
+    answers: [
+      { text: "Tomato", correct: false },
+      { text: "Onion", correct: false },
+      { text: "Avocado", correct: true },
+      { text: "Lime", correct: false },
+    ],
+  },
+  {
+    question: "Which country is known as the Land of the Rising Sun?",
+    answers: [
+      { text: "China", correct: false },
+      { text: "Japan", correct: true },
+      { text: "South Korea", correct: false },
+      { text: "India", correct: false },
+    ],
+  },
+  {
+    question: "What is the largest mammal in the world?",
+    answers: [
+      { text: "Elephant", correct: false },
+      { text: "Blue Whale", correct: true },
+      { text: "Giraffe", correct: false },
+      { text: "Great White Shark", correct: false },
+    ],
+  },
+  {
+    question: "What is the chemical symbol for gold?",
+    answers: [
+      { text: "Ag", correct: false },
+      { text: "Au", correct: true },
+      { text: "Gd", correct: false },
+      { text: "Pb", correct: false },
+    ],
+  },
+  {
+    question: "Which is the fastest land animal?",
+    answers: [
+      { text: "Lion", correct: false },
+      { text: "Cheetah", correct: true },
+      { text: "Tiger", correct: false },
+      { text: "Horse", correct: false },
+    ],
+  },
+  {
+    question: "What is the largest organ in the human body?",
+    answers: [
+      { text: "Liver", correct: false },
+      { text: "Heart", correct: false },
+      { text: "Skin", correct: true },
+      { text: "Lung", correct: false },
+    ],
+  },
+  {
+    question: "Which is the most populous country in the world?",
+    answers: [
+      { text: "India", correct: false },
+      { text: "China", correct: true },
+      { text: "USA", correct: false },
+      { text: "Indonesia", correct: false },
+    ],
+  },
+  {
+    question: "What is the freezing point of water in Fahrenheit?",
+    answers: [
+      { text: "32°F", correct: true },
+      { text: "0°F", correct: false },
+      { text: "100°F", correct: false },
+      { text: "212°F", correct: false },
+    ],
+  },
+  {
+    question: "Who discovered penicillin?",
+    answers: [
+      { text: "Marie Curie", correct: false },
+      { text: "Alexander Fleming", correct: true },
+      { text: "Louis Pasteur", correct: false },
+      { text: "Albert Einstein", correct: false },
+    ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
